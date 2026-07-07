@@ -1,0 +1,26 @@
+# Private/local data
+private_data/
+data/
+
+# Generated outputs
+outputs/
+logs/
+results/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large model artifacts by default; keep the demo checkpoint explicitly
+*.pt
+*.pth
+*.ckpt
+*.onnx
+!checkpoints/ecg_lstm_5bit_demo.pth
+
+# Environments and local files
+.env
+.venv/
+venv/
+.DS_Store
+Thumbs.db

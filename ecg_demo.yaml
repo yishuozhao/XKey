@@ -1,0 +1,25 @@
+seed: 42
+sample_data: sample_data/mit_bih_demo_pairs.npy
+
+model:
+  checkpoint: checkpoints/ecg_lstm_5bit_demo.pth
+  device: cpu
+  input_length: 512
+  out_bits: 5
+
+feature_extraction:
+  num_windows: 26
+  raw_key_length: 128
+
+quantization:
+  threshold: 0.5
+
+reconciliation:
+  block_size: 32
+  syndrome_rows: 24
+  max_errors_per_block: 4
+  seed: 42
+
+privacy_amplification:
+  final_key_length: 128
+  salt: xkey-ecg-demo
