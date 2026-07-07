@@ -1,4 +1,4 @@
-# XKey ECG Demo
+# XKey Demo
 
 This is the compact GitHub upload folder for the XKey camera-ready demo. It
 shows the ECG key generation pipeline: processed ECG windows -> LSTM feature
@@ -72,26 +72,15 @@ released due to privacy and ethical restrictions.
 
 ## Citation
 
-Please update the placeholder after the camera-ready metadata is finalized.
-
 ```bibtex
 @article{xkey2026,
-  title   = {XKey: A Unified Deep Learning Framework for Wearable-based Key Generation},
-  author  = {Author List To Be Updated},
-  journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-  year    = {2026},
-  doi     = {To Be Updated}
+...
 }
 ```
-
-## License
-
-The license is currently a placeholder. Please confirm MIT, Apache-2.0,
-BSD-3-Clause, or another license before publishing.
 
 ## Code Availability Sentence
 
 To facilitate reproducibility, we provide the ECG demo implementation,
 configuration files, and instructions for running the XKey key generation
-pipeline at `https://github.com/<user-or-org>/XKey`; due to privacy and ethical
+pipeline at `https://github.com/yishuozhao/XKey`; due to privacy and ethical
 restrictions, the self-collected biometric data are not publicly released.
