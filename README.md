@@ -71,7 +71,7 @@ pipeline. Self-collected biometric data and restricted datasets are not
 released due to privacy and ethical restrictions.
 
 ## Citation
-
+will complete after publication
 ```bibtex
 @article{xkey2026,
 ...
