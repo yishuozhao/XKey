@@ -82,5 +82,5 @@ will complete after publication
 
 To facilitate reproducibility, we provide the ECG demo implementation,
 configuration files, and instructions for running the XKey key generation
-pipeline at `https://github.com/yishuozhao/XKey`; due to privacy and ethical
+pipeline at `https://github.com/yishuozhao/XKey-demo`; due to privacy and ethical
 restrictions, the self-collected biometric data are not publicly released.
