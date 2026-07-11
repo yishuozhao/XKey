@@ -50,10 +50,10 @@ Processed ECG windows: 26
 Device: cpu
 Device A raw key length: 128 bits
 Device B raw key length: 128 bits
-Bit agreement before reconciliation: 96.88%
+Bit agreement before reconciliation: xx.xx%
 Reconciliation success: True
-Corrected raw bit errors: 4
-Residual raw bit errors: 0
+Corrected raw bit errors: x
+Residual raw bit errors: x
 Final key match after reconciliation: True
 Final key length: 128 bits
 ```
