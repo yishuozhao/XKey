@@ -1,11 +1,11 @@
-# XKey Demo
+# XKey
 
 This is the compact GitHub upload folder for the XKey camera-ready demo. It
 shows the ECG key generation pipeline: processed ECG windows -> LSTM feature
 encoder -> quantization -> compressed-sensing-style reconciliation -> privacy
 amplification.
 
-This demo is runnable on CPU. It does not include private biometric recordings,
+This code is runnable on CPU. It does not include private biometric recordings,
 participant information, full training data, or the full multi-modality
 benchmark code.
 
@@ -80,7 +80,7 @@ will complete after publication
 
 ## Code Availability Sentence
 
-To facilitate reproducibility, we provide the ECG demo implementation,
+To facilitate reproducibility, we provide the ECG implementation,
 configuration files, and instructions for running the XKey key generation
 pipeline at `https://github.com/yishuozhao/XKey-demo`; due to privacy and ethical
 restrictions, the self-collected biometric data are not publicly released.
